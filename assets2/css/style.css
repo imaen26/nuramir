@@ -4,7 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-
+.clear { clear:both; display:block; overflow:hidden; visibility:hidden; height:0px;}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
