@@ -4,6 +4,11 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+.postingan5 .thumb5 {
+height: auto;
+overflow:hidden;
+margin-bottom:0px;
+}
 .clear { clear:both; display:block; overflow:hidden; visibility:hidden; height:0px;}
 /*--------------------------------------------------------------
 # General
