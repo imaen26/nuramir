@@ -4,6 +4,13 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+.postingan5 img.recent-post-thumb {
+float: none;
+width: auto;
+height: auto;
+display: block;
+padding: 0;margin:0; border: none;
+}
 .postingan5 .thumb5 {
 height: auto;
 overflow:hidden;
