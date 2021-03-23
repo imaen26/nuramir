@@ -1,21 +1,203 @@
-.header-outer{background:transparent none repeat-x scroll 0 -400px;_background-image:none}
-.Header h1{font:normal normal 60px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif;color:#333333;text-shadow:-1px -1px 1px rgba(0,0,0,.2);line-height:1.15em;letter-spacing:-.0625em}
-.Header h1 a{color:#333333}.Header .description{font-size:140%;color:#777777}#header-inner img{max-width:100%;height:auto;margin:0 auto}
-.header-inner .Header .titlewrapper{padding:22px 30px 0}.header-inner .Header .descriptionwrapper{padding:0 30px}.tabs-inner{padding:0}
-.tabs-inner .widget ul{background:#168803;_background-image:none;margin-top:0}
-.tabs-inner .widget li a{display:inline-block;padding:15px 10px;font:normal normal 14px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif;color:#fff}
-.tabs-inner .widget li.selected a,.tabs-inner .widget li a:hover{color:#000000;background-color:#d7e3d5;text-decoration:none; font-weight:normal;}.section{margin:0}
-.cover .widget,.box-konten .widget{margin:0}.row{clear:both;padding:0;margin:0}.col{display:block;float:left;margin:1% 0 1% 1.6%}.col:first-child{margin-left:0}
-.group:before,.group:after{content:"";display:table}.group:after{clear:both}.group{zoom:1}.kolom11{width:66.13%}.cover-kolom22{width:40%}.cover-kolom12{width:58.33%}.kolom22{width:100%}
-.kolom12{width:49.2%}.kolom-besar{width:60.13%}.kolom-kecil{width:38.26%}.kolom33{width:100%}.kolom23{width:66.13%}.kolom13{width:32.26%}.kolom44{width:100%}
-.kolom34{width:74.6%}.kolom24{width:49.2%}.kolom14{width:23.8%}.kolom66{width:100%}.kolom56{width:76.6666%}.kolom46{width:61.3333%}.kolom36{width:45.9999%}
-.kolom26{width:30.6666%}.kolom16{width:15.3333%}.kolomfull{width:100%}@media only screen and (max-width: 480px){.col{margin:1% 0}.kolom22,.kolom12{width:100%}
-.kolom33,.kolom23,.kolom13{width:100%}.kolom14,.kolom24,.kolom34,.kolom44{width:100%}.kolom16,.kolom26,.kolom36,.kolom46,.kolom56,.kolom66{width:50%}
-.cover-kolom22,.cover-kolom12{width:100%}.kolom-besar,.kolom-kecil{width:100%}}.no-items{padding:0!important;margin:0!important}.cover{color:#282828;background:#ffffff}
-.cover .w-cover{overflow:hidden}.cover .row{max-width:960px;margin:auto}
-.cover h2{font:normal normal 42px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif;margin-bottom:.25em;padding:0;line-height:1.15em;letter-spacing:-.062em; font-weight: bold;}
-.cover p{font-size:18px;margin:0 0 30px;font-weight:normal}.cover1{padding:40px}.cover2{padding:40px}.cover3{text-align:center;padding:100px 40px;position:relative;clear:both}
-.cover3:before{content:' ';display:block;position:absolute;left:0;top:0;width:100%;height:100%;z-index:1;background:url(https://placeimg.com/960/480/any);opacity:.5}.cover3 .isi-cover3{position:relative;z-index:2}
-.cover4{padding:70px 40px}.wrap-video{position:relative;padding-bottom:56.25%;padding-top:0;height:0}.wrap-video iframe{position:absolute;top:0;left:0;width:100%;height:100%}.cover5{padding:40px;text-align:center}
-.cover5 .col{text-align:left}.cover5 .no-left{margin-left:0}.cover5 ul{list-style:none;padding:0}.cover5 li{padding-left:1.3em !important;font-size:24px;margin-bottom:14px !important;}
-.cover5 li:before{content:"\f14a";font-family:FontAwesome;display:inline-block;margin-left:-1.3em;width:1.3em}.cover6{padding:40px}.cover6 form{text-align:center}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKOzY.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu5mxKOzY.woff2)format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7mxKOzY.woff2)format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4WxKOzY.woff2)format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKOzY.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2)format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(//fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(//fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2)format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(//fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2)format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(//fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2)format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(//fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(//fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2)format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(//fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+
+<!--
+/* Variable definitions
+====================
+<Variable name="keycolor" description="Main Color" type="color" default="#66bbdd" value="#66bbdd"/>
+<Group description="Page Text" selector="body">
+<Variable name="body.font" description="Font" type="font"
+default="normal normal 16px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 16px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="body.text.color" description="Text Color" type="color" default="#333333" value="#333333"/>
+</Group>
+<Group description="Backgrounds" selector=".body-fauxcolumns-outer">
+<Variable name="body.background.color" description="Outer Background" type="color" default="#fbfbfb" value="#fbfbfb"/>
+<Variable name="content.background.color" description="Main Background" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="header.background.color" description="Header Background" type="color" default="transparent" value="transparent"/>
+</Group>
+<Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color" default="#2288bb" value="#2288bb"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#888888" value="#888888"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#33aaff" value="#33aaff"/>
+</Group>
+<Group description="Blog Title" selector=".header h1">
+<Variable name="header.font" description="Font" type="font"
+default="normal normal 60px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 60px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="header.text.color" description="Title Color" type="color" default="#333333"  value="#333333"/>
+</Group>
+<Group description="Blog Description" selector=".header .description">
+<Variable name="description.text.color" description="Description Color" type="color"
+default="#777777"  value="#777777"/>
+</Group>
+<Group description="Tabs Text" selector=".tabs-inner .widget li a">
+<Variable name="tabs.font" description="Font" type="font"
+default="normal normal 14px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 14px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color" default="#999999" value="#999999"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#000000" value="#000000"/>
+</Group>
+<Group description="Tabs Background" selector=".tabs-outer .PageList">
+<Variable name="tabs.background.color" description="Background Color" type="color" default="#f1f1f1" value="#f1f1f1"/>
+<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="#eeeeee" value="#eeeeee"/>
+</Group>
+<!-- ################### -->
+<!-- COVER -->
+<!-- ################### -->
+<Group description="Cover" selector=".cover .w-cover h2">
+<Variable name="cover.font" description="Font" type="font"
+default="normal normal 36px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 36px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="cover.background.color" description="Background Color" type="color" default="#367ABD" value="#367ABD"/>
+<Variable name="cover.text.color" description="Title Color" type="color" default="#ffffff"  value="#ffffff"/>
+</Group>
+<!-- ################### -->
+<!-- PEMISAH 1 -->
+<!-- ################### -->
+<Group description="Pemisah 1" selector=".duaenam-content-1">
+<Variable name="pemisah1.background.color" description="Background Color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="pemisah1.text.color" description="Text Color" type="color" default="#444444"  value="#444444"/>
+</Group>
+<!-- ################### -->
+<!-- FEATURES -->
+<!-- ################### -->
+<Group description="Features" selector=".duaenam-content-2">
+<Variable name="features.background.color" description="Background Color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="features.text.color" description="Title Color" type="color" default="#444444"  value="#444444"/>
+</Group>
+<!-- ################### -->
+<!-- PEMISAH 2 -->
+<!-- ################### -->
+<Group description="Pemisah 2" selector=".duaenam-content-3">
+<Variable name="pemisah2.background.color" description="Background Color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="pemisah2.text.color" description="Text Color" type="color" default="#444444"  value="#444444"/>
+</Group>
+<!-- ################### -->
+<!-- TESTIMONI -->
+<!-- ################### -->
+<Group description="Testimoni" selector=".duaenam-content-4">
+<Variable name="testimoni.background.color" description="Background Color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="testimoni.text.color" description="Title Color" type="color" default="#444444"  value="#444444"/>
+</Group>
+<!-- ################### -->
+<!-- PEMISAH 3 -->
+<!-- ################### -->
+<Group description="Pemisah 3" selector=".duaenam-content-5">
+<Variable name="pemisah3.background.color" description="Background Color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="pemisah3.text.color" description="Text Color" type="color" default="#444444"  value="#444444"/>
+</Group>
+<!-- ################### -->
+<!-- CALL TO ACTION -->
+<!-- ################### -->
+<Group description="Call To Action" selector=".duaenam-content-6">
+<Variable name="cta.background.color" description="Background Color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="cta.text.color" description="Title Color" type="color" default="#444444"  value="#444444"/>
+</Group>
+<!-- ################### -->
+<!-- PEMISAH 4 -->
+<!-- ################### -->
+<Group description="Pemisah 4" selector=".duaenam-content-7">
+<Variable name="pemisah4.background.color" description="Background Color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="pemisah4.text.color" description="Text Color" type="color" default="#444444"  value="#444444"/>
+</Group>
+<!-- ################### -->
+<!-- FOOTER -->
+<!-- ################### -->
+<Group description="Footer" selector=".duaenam-content-8">
+<Variable name="footer.background.color" description="Background Color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="footer.text.color" description="Title Color" type="color" default="#444444"  value="#444444"/>
+</Group>
+<Group description="Post Title" selector="h2.post-title">
+<Variable name="post.title.font" description="Font" type="font"
+default="bold normal 48px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="bold normal 48px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+</Group>
+<Group description="Date Header" selector=".date-header">
+<Variable name="date.header.color" description="Text Color" type="color"
+default="#333333" value="#333333"/>
+<Variable name="date.header.background.color" description="Background Color" type="color"
+default="transparent" value="transparent"/>
+<Variable name="date.header.font" description="Text Font" type="font"
+default="normal bold 11px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal bold 11px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="date.header.padding" description="Date Header Padding" type="string" default="inherit" value="inherit"/>
+<Variable name="date.header.letterspacing" description="Date Header Letter Spacing" type="string" default="inherit" value="inherit"/>
+<Variable name="date.header.margin" description="Date Header Margin" type="string" default="inherit" value="inherit"/>
+</Group>
+<Group description="Post Footer" selector=".post-footer">
+<Variable name="post.footer.text.color" description="Text Color" type="color" default="#666666" value="#666666"/>
+<Variable name="post.footer.background.color" description="Background Color" type="color"
+default="#ffffff" value="#ffffff"/>
+<Variable name="post.footer.border.color" description="Shadow Color" type="color" default="#ffffff" value="#ffffff"/>
+</Group>
+<Group description="Gadgets" selector=".sidebar h3">
+<Variable name="widget.title.font" description="Title Font" type="font"
+default="normal bold 14px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal bold 14px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color" default="#000000" value="#000000"/>
+<Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#999999" value="#999999"/>
+</Group>
+<Group description="Images" selector=".main-inner">
+<Variable name="image.background.color" description="Background Color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="image.border.color" description="Border Color" type="color" default="#eeeeee" value="#eeeeee"/>
+<Variable name="image.text.color" description="Caption Text Color" type="color" default="#333333" value="#333333"/>
+</Group>
+<Group description="Accents" selector=".content-inner">
+<Variable name="body.rule.color" description="Separator Line Color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="tabs.border.color" description="Tabs Border Color" type="color" default="#ffffff" value="#ffffff"/>
+</Group>
+<Variable name="body.background" description="Body Background" type="background"
+color="#fbfbfb" default="$(color) none repeat scroll top left" value="$(color) none repeat scroll top left"/>
+<Variable name="body.background.override" description="Body Background Override" type="string" default="" value=""/>
+<Variable name="body.background.gradient.cap" description="Body Gradient Cap" type="url"
+default="url(https://resources.blogblog.com/blogblog/data/1kt/simple/gradients_light.png)" value="url(https://resources.blogblog.com/blogblog/data/1kt/simple/gradients_light.png)"/>
+<Variable name="body.background.gradient.tile" description="Body Gradient Tile" type="url"
+default="url(https://resources.blogblog.com/blogblog/data/1kt/simple/body_gradient_tile_light.png)" value="url(https://resources.blogblog.com/blogblog/data/1kt/simple/body_gradient_tile_light.png)"/>
+<Variable name="content.background.color.selector" description="Content Background Color Selector" type="string" default=".content-inner" value=".content-inner"/>
+<Variable name="content.padding" description="Content Padding" type="length" default="10px" min="0" max="100px" value="10px"/>
+<Variable name="content.padding.horizontal" description="Content Horizontal Padding" type="length" default="10px" min="0" max="100px" value="10px"/>
+<Variable name="content.shadow.spread" description="Content Shadow Spread" type="length" default="40px" min="0" max="100px" value="40px"/>
+<Variable name="content.shadow.spread.webkit" description="Content Shadow Spread (WebKit)" type="length" default="5px" min="0" max="100px" value="5px"/>
+<Variable name="content.shadow.spread.ie" description="Content Shadow Spread (IE)" type="length" default="10px" min="0" max="100px" value="10px"/>
+<Variable name="main.border.width" description="Main Border Width" type="length" default="0" min="0" max="10px" value="0"/>
+<Variable name="header.background.gradient" description="Header Gradient" type="url" default="none" value="none"/>
+<Variable name="header.shadow.offset.left" description="Header Shadow Offset Left" type="length" default="-1px" min="-50px" max="50px" value="-1px"/>
+<Variable name="header.shadow.offset.top" description="Header Shadow Offset Top" type="length" default="-1px" min="-50px" max="50px" value="-1px"/>
+<Variable name="header.shadow.spread" description="Header Shadow Spread" type="length" default="1px" min="0" max="100px" value="1px"/>
+<Variable name="header.padding" description="Header Padding" type="length" default="30px" min="0" max="100px" value="30px"/>
+<Variable name="header.border.size" description="Header Border Size" type="length" default="1px" min="0" max="10px" value="1px"/>
+<Variable name="header.bottom.border.size" description="Header Bottom Border Size" type="length" default="1px" min="0" max="10px" value="1px"/>
+<Variable name="header.border.horizontalsize" description="Header Horizontal Border Size" type="length" default="0" min="0" max="10px" value="0"/>
+<Variable name="description.text.size" description="Description Text Size" type="string" default="140%" value="140%"/>
+<Variable name="tabs.margin.top" description="Tabs Margin Top" type="length" default="0" min="0" max="100px" value="0"/>
+<Variable name="tabs.margin.side" description="Tabs Side Margin" type="length" default="15px" min="0" max="100px" value="15px"/>
+<Variable name="tabs.background.gradient" description="Tabs Background Gradient" type="url"
+default="url(https://resources.blogblog.com/blogblog/data/1kt/simple/gradients_light.png)" value="url(https://resources.blogblog.com/blogblog/data/1kt/simple/gradients_light.png)"/>
+<Variable name="tabs.border.width" description="Tabs Border Width" type="length" default="1px" min="0" max="10px" value="1px"/>
+<Variable name="tabs.bevel.border.width" description="Tabs Bevel Border Width" type="length" default="1px" min="0" max="10px" value="1px"/>
+<Variable name="post.margin.bottom" description="Post Bottom Margin" type="length" default="25px" min="0" max="100px" value="25px"/>
+<Variable name="image.border.small.size" description="Image Border Small Size" type="length" default="2px" min="0" max="10px" value="2px"/>
+<Variable name="image.border.large.size" description="Image Border Large Size" type="length" default="5px" min="0" max="10px" value="5px"/>
+<Variable name="page.width.selector" description="Page Width Selector" type="string" default=".region-inner" value=".region-inner"/>
+<Variable name="page.width" description="Page Width" type="string" default="auto" value="auto"/>
+<Variable name="main.section.margin" description="Main Section Margin" type="length" default="15px" min="0" max="100px" value="15px"/>
+<Variable name="main.padding" description="Main Padding" type="length" default="15px" min="0" max="100px" value="15px"/>
+<Variable name="main.padding.top" description="Main Padding Top" type="length" default="30px" min="0" max="100px" value="30px"/>
+<Variable name="main.padding.bottom" description="Main Padding Bottom" type="length" default="30px" min="0" max="100px" value="30px"/>
+<Variable name="paging.background"
+color="#ffffff"
+description="Background of blog paging area" type="background"
+default="transparent none no-repeat scroll top center" value="transparent none no-repeat scroll top center"/>
+<Variable name="footer.bevel" description="Bevel border length of footer" type="length" default="0" min="0" max="10px" value="0"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
+default="transparent none repeat scroll top left" value="transparent none repeat scroll top left"/>
+<Variable name="mobile.background.size" description="Mobile Background Size" type="string" default="auto" value="auto"/>
+<Variable name="mobile.button.color" description="Mobile Button Color" type="color" default="#ffffff"  value="#ffffff"/>
+<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+*/
+/* Content
+----------------------------------------------- */
+body {
+font: normal normal 16px Roboto, Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #333333;
+background: #fff none repeat scroll top left;
+padding: 0 40px 40px 40px;
+padding-bottom: 10px !important;
+}
+#navbar{display:none}html body .region-inner{max-width:100%;width:auto}img{max-width:100%}h1,h2,h3,h4,h5,h6{margin-bottom:20px}p{margin-top:0}
+p.txt-caption{color:#083800;font-size:22px;letter-spacing:0.5px;line-height:1.4em;margin-bottom:0;opacity:.8}a:link{text-decoration:none;color:#2288bb}a:visited{text-decoration:none;color:#888888}
+a:hover{text-decoration:underline;color:#33aaff}.content-outer{margin-bottom:1px}.content-inner{padding:10px 10px}.content-inner{background-color:#ffffff}
